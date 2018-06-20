@@ -17,11 +17,11 @@ Install [Docker Compose](http://docs.docker.com/compose/) on your system.
 
 ## Setup
 
-Run `docker-compose build`. It will pull a base image from the Docker registry and install [express-generator](https://github.com/expressjs/generator) globally in your container. The rest can be ignored for now.
+Run `docker-compose build` from project directory. It will pull a base image from the Docker registry and install [express-generator](https://github.com/expressjs/generator) globally in your container. The rest can be ignored for now.
 
 ## Start
 
-Run `docker-compose up` to create and start the container. The app should then be running on your docker daemon on port 3030 (On OS X you can use `boot2docker ip` to find out the IP address).
+Run `docker-compose up` from project directory to create and start the container. The app should then be running on your docker daemon on port 3030 (On OS X you can use `boot2docker ip` to find out the IP address).
 
 ## How to use
 

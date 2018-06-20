@@ -6,6 +6,7 @@ RUN npm install express-generator -g
 RUN npm install mongoose -g
 RUN npm install debug -g
 RUN npm install unirest -g
+RUN npm install dateformat -g
 
 WORKDIR /src
 ADD app/package.json /src/package.json
